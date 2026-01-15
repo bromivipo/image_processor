@@ -99,10 +99,24 @@ CMakeFiles/image_processor.dir/image/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/image/image.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\misha\Documents\image_processor\image\image.cpp -o CMakeFiles\image_processor.dir\image\image.cpp.s
 
+CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj: CMakeFiles/image_processor.dir/flags.make
+CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj: C:/Users/misha/Documents/image_processor/filters/base_filter.cpp
+CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj -MF CMakeFiles\image_processor.dir\filters\base_filter.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\base_filter.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\base_filter.cpp
+
+CMakeFiles/image_processor.dir/filters/base_filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/base_filter.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\misha\Documents\image_processor\filters\base_filter.cpp > CMakeFiles\image_processor.dir\filters\base_filter.cpp.i
+
+CMakeFiles/image_processor.dir/filters/base_filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/base_filter.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\misha\Documents\image_processor\filters\base_filter.cpp -o CMakeFiles\image_processor.dir\filters\base_filter.cpp.s
+
 CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj: CMakeFiles/image_processor.dir/flags.make
 CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj: C:/Users/misha/Documents/image_processor/filters/grayscale.cpp
 CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj -MF CMakeFiles\image_processor.dir\filters\grayscale.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\grayscale.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\grayscale.cpp
 
 CMakeFiles/image_processor.dir/filters/grayscale.cpp.i: cmake_force
@@ -116,7 +130,7 @@ CMakeFiles/image_processor.dir/filters/grayscale.cpp.s: cmake_force
 CMakeFiles/image_processor.dir/filters/scale.cpp.obj: CMakeFiles/image_processor.dir/flags.make
 CMakeFiles/image_processor.dir/filters/scale.cpp.obj: C:/Users/misha/Documents/image_processor/filters/scale.cpp
 CMakeFiles/image_processor.dir/filters/scale.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image_processor.dir/filters/scale.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/image_processor.dir/filters/scale.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/scale.cpp.obj -MF CMakeFiles\image_processor.dir\filters\scale.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\scale.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\scale.cpp
 
 CMakeFiles/image_processor.dir/filters/scale.cpp.i: cmake_force
@@ -130,7 +144,7 @@ CMakeFiles/image_processor.dir/filters/scale.cpp.s: cmake_force
 CMakeFiles/image_processor.dir/filters/negative.cpp.obj: CMakeFiles/image_processor.dir/flags.make
 CMakeFiles/image_processor.dir/filters/negative.cpp.obj: C:/Users/misha/Documents/image_processor/filters/negative.cpp
 CMakeFiles/image_processor.dir/filters/negative.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/image_processor.dir/filters/negative.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/image_processor.dir/filters/negative.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/negative.cpp.obj -MF CMakeFiles\image_processor.dir\filters\negative.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\negative.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\negative.cpp
 
 CMakeFiles/image_processor.dir/filters/negative.cpp.i: cmake_force
@@ -144,7 +158,7 @@ CMakeFiles/image_processor.dir/filters/negative.cpp.s: cmake_force
 CMakeFiles/image_processor.dir/filters/threshold.cpp.obj: CMakeFiles/image_processor.dir/flags.make
 CMakeFiles/image_processor.dir/filters/threshold.cpp.obj: C:/Users/misha/Documents/image_processor/filters/threshold.cpp
 CMakeFiles/image_processor.dir/filters/threshold.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/image_processor.dir/filters/threshold.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/image_processor.dir/filters/threshold.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/threshold.cpp.obj -MF CMakeFiles\image_processor.dir\filters\threshold.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\threshold.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\threshold.cpp
 
 CMakeFiles/image_processor.dir/filters/threshold.cpp.i: cmake_force
@@ -155,29 +169,95 @@ CMakeFiles/image_processor.dir/filters/threshold.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/threshold.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\misha\Documents\image_processor\filters\threshold.cpp -o CMakeFiles\image_processor.dir\filters\threshold.cpp.s
 
+CMakeFiles/image_processor.dir/filters/blur.cpp.obj: CMakeFiles/image_processor.dir/flags.make
+CMakeFiles/image_processor.dir/filters/blur.cpp.obj: C:/Users/misha/Documents/image_processor/filters/blur.cpp
+CMakeFiles/image_processor.dir/filters/blur.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/image_processor.dir/filters/blur.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/blur.cpp.obj -MF CMakeFiles\image_processor.dir\filters\blur.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\blur.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\blur.cpp
+
+CMakeFiles/image_processor.dir/filters/blur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/blur.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\misha\Documents\image_processor\filters\blur.cpp > CMakeFiles\image_processor.dir\filters\blur.cpp.i
+
+CMakeFiles/image_processor.dir/filters/blur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/blur.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\misha\Documents\image_processor\filters\blur.cpp -o CMakeFiles\image_processor.dir\filters\blur.cpp.s
+
+CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj: CMakeFiles/image_processor.dir/flags.make
+CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj: C:/Users/misha/Documents/image_processor/filters/sharpening.cpp
+CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj -MF CMakeFiles\image_processor.dir\filters\sharpening.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\sharpening.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\sharpening.cpp
+
+CMakeFiles/image_processor.dir/filters/sharpening.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/sharpening.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\misha\Documents\image_processor\filters\sharpening.cpp > CMakeFiles\image_processor.dir\filters\sharpening.cpp.i
+
+CMakeFiles/image_processor.dir/filters/sharpening.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/sharpening.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\misha\Documents\image_processor\filters\sharpening.cpp -o CMakeFiles\image_processor.dir\filters\sharpening.cpp.s
+
+CMakeFiles/image_processor.dir/filters/flip.cpp.obj: CMakeFiles/image_processor.dir/flags.make
+CMakeFiles/image_processor.dir/filters/flip.cpp.obj: C:/Users/misha/Documents/image_processor/filters/flip.cpp
+CMakeFiles/image_processor.dir/filters/flip.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/image_processor.dir/filters/flip.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/flip.cpp.obj -MF CMakeFiles\image_processor.dir\filters\flip.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\flip.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\flip.cpp
+
+CMakeFiles/image_processor.dir/filters/flip.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/flip.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\misha\Documents\image_processor\filters\flip.cpp > CMakeFiles\image_processor.dir\filters\flip.cpp.i
+
+CMakeFiles/image_processor.dir/filters/flip.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/flip.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\misha\Documents\image_processor\filters\flip.cpp -o CMakeFiles\image_processor.dir\filters\flip.cpp.s
+
+CMakeFiles/image_processor.dir/filters/rotate.cpp.obj: CMakeFiles/image_processor.dir/flags.make
+CMakeFiles/image_processor.dir/filters/rotate.cpp.obj: C:/Users/misha/Documents/image_processor/filters/rotate.cpp
+CMakeFiles/image_processor.dir/filters/rotate.cpp.obj: CMakeFiles/image_processor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/image_processor.dir/filters/rotate.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_processor.dir/filters/rotate.cpp.obj -MF CMakeFiles\image_processor.dir\filters\rotate.cpp.obj.d -o CMakeFiles\image_processor.dir\filters\rotate.cpp.obj -c C:\Users\misha\Documents\image_processor\filters\rotate.cpp
+
+CMakeFiles/image_processor.dir/filters/rotate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_processor.dir/filters/rotate.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\misha\Documents\image_processor\filters\rotate.cpp > CMakeFiles\image_processor.dir\filters\rotate.cpp.i
+
+CMakeFiles/image_processor.dir/filters/rotate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_processor.dir/filters/rotate.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\misha\Documents\image_processor\filters\rotate.cpp -o CMakeFiles\image_processor.dir\filters\rotate.cpp.s
+
 # Object files for target image_processor
 image_processor_OBJECTS = \
 "CMakeFiles/image_processor.dir/main.cpp.obj" \
 "CMakeFiles/image_processor.dir/image/image.cpp.obj" \
+"CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj" \
 "CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj" \
 "CMakeFiles/image_processor.dir/filters/scale.cpp.obj" \
 "CMakeFiles/image_processor.dir/filters/negative.cpp.obj" \
-"CMakeFiles/image_processor.dir/filters/threshold.cpp.obj"
+"CMakeFiles/image_processor.dir/filters/threshold.cpp.obj" \
+"CMakeFiles/image_processor.dir/filters/blur.cpp.obj" \
+"CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj" \
+"CMakeFiles/image_processor.dir/filters/flip.cpp.obj" \
+"CMakeFiles/image_processor.dir/filters/rotate.cpp.obj"
 
 # External object files for target image_processor
 image_processor_EXTERNAL_OBJECTS =
 
 image_processor.exe: CMakeFiles/image_processor.dir/main.cpp.obj
 image_processor.exe: CMakeFiles/image_processor.dir/image/image.cpp.obj
+image_processor.exe: CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj
 image_processor.exe: CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj
 image_processor.exe: CMakeFiles/image_processor.dir/filters/scale.cpp.obj
 image_processor.exe: CMakeFiles/image_processor.dir/filters/negative.cpp.obj
 image_processor.exe: CMakeFiles/image_processor.dir/filters/threshold.cpp.obj
+image_processor.exe: CMakeFiles/image_processor.dir/filters/blur.cpp.obj
+image_processor.exe: CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj
+image_processor.exe: CMakeFiles/image_processor.dir/filters/flip.cpp.obj
+image_processor.exe: CMakeFiles/image_processor.dir/filters/rotate.cpp.obj
 image_processor.exe: CMakeFiles/image_processor.dir/build.make
 image_processor.exe: CMakeFiles/image_processor.dir/linkLibs.rsp
 image_processor.exe: CMakeFiles/image_processor.dir/objects1.rsp
 image_processor.exe: CMakeFiles/image_processor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable image_processor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\misha\Documents\image_processor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable image_processor.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\image_processor.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -128,6 +128,78 @@ image_processor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/build
 .PHONY : image_processor/fast
 
+filters/base_filter.obj: filters/base_filter.cpp.obj
+.PHONY : filters/base_filter.obj
+
+# target to build an object file
+filters/base_filter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj
+.PHONY : filters/base_filter.cpp.obj
+
+filters/base_filter.i: filters/base_filter.cpp.i
+.PHONY : filters/base_filter.i
+
+# target to preprocess a source file
+filters/base_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/base_filter.cpp.i
+.PHONY : filters/base_filter.cpp.i
+
+filters/base_filter.s: filters/base_filter.cpp.s
+.PHONY : filters/base_filter.s
+
+# target to generate assembly for a file
+filters/base_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/base_filter.cpp.s
+.PHONY : filters/base_filter.cpp.s
+
+filters/blur.obj: filters/blur.cpp.obj
+.PHONY : filters/blur.obj
+
+# target to build an object file
+filters/blur.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/blur.cpp.obj
+.PHONY : filters/blur.cpp.obj
+
+filters/blur.i: filters/blur.cpp.i
+.PHONY : filters/blur.i
+
+# target to preprocess a source file
+filters/blur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/blur.cpp.i
+.PHONY : filters/blur.cpp.i
+
+filters/blur.s: filters/blur.cpp.s
+.PHONY : filters/blur.s
+
+# target to generate assembly for a file
+filters/blur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/blur.cpp.s
+.PHONY : filters/blur.cpp.s
+
+filters/flip.obj: filters/flip.cpp.obj
+.PHONY : filters/flip.obj
+
+# target to build an object file
+filters/flip.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/flip.cpp.obj
+.PHONY : filters/flip.cpp.obj
+
+filters/flip.i: filters/flip.cpp.i
+.PHONY : filters/flip.i
+
+# target to preprocess a source file
+filters/flip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/flip.cpp.i
+.PHONY : filters/flip.cpp.i
+
+filters/flip.s: filters/flip.cpp.s
+.PHONY : filters/flip.s
+
+# target to generate assembly for a file
+filters/flip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/flip.cpp.s
+.PHONY : filters/flip.cpp.s
+
 filters/grayscale.obj: filters/grayscale.cpp.obj
 .PHONY : filters/grayscale.obj
 
@@ -176,6 +248,30 @@ filters/negative.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/negative.cpp.s
 .PHONY : filters/negative.cpp.s
 
+filters/rotate.obj: filters/rotate.cpp.obj
+.PHONY : filters/rotate.obj
+
+# target to build an object file
+filters/rotate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/rotate.cpp.obj
+.PHONY : filters/rotate.cpp.obj
+
+filters/rotate.i: filters/rotate.cpp.i
+.PHONY : filters/rotate.i
+
+# target to preprocess a source file
+filters/rotate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/rotate.cpp.i
+.PHONY : filters/rotate.cpp.i
+
+filters/rotate.s: filters/rotate.cpp.s
+.PHONY : filters/rotate.s
+
+# target to generate assembly for a file
+filters/rotate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/rotate.cpp.s
+.PHONY : filters/rotate.cpp.s
+
 filters/scale.obj: filters/scale.cpp.obj
 .PHONY : filters/scale.obj
 
@@ -199,6 +295,30 @@ filters/scale.s: filters/scale.cpp.s
 filters/scale.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/scale.cpp.s
 .PHONY : filters/scale.cpp.s
+
+filters/sharpening.obj: filters/sharpening.cpp.obj
+.PHONY : filters/sharpening.obj
+
+# target to build an object file
+filters/sharpening.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/sharpening.cpp.obj
+.PHONY : filters/sharpening.cpp.obj
+
+filters/sharpening.i: filters/sharpening.cpp.i
+.PHONY : filters/sharpening.i
+
+# target to preprocess a source file
+filters/sharpening.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/sharpening.cpp.i
+.PHONY : filters/sharpening.cpp.i
+
+filters/sharpening.s: filters/sharpening.cpp.s
+.PHONY : filters/sharpening.s
+
+# target to generate assembly for a file
+filters/sharpening.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filters/sharpening.cpp.s
+.PHONY : filters/sharpening.cpp.s
 
 filters/threshold.obj: filters/threshold.cpp.obj
 .PHONY : filters/threshold.obj
@@ -281,15 +401,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... image_processor
+	@echo ... filters/base_filter.obj
+	@echo ... filters/base_filter.i
+	@echo ... filters/base_filter.s
+	@echo ... filters/blur.obj
+	@echo ... filters/blur.i
+	@echo ... filters/blur.s
+	@echo ... filters/flip.obj
+	@echo ... filters/flip.i
+	@echo ... filters/flip.s
 	@echo ... filters/grayscale.obj
 	@echo ... filters/grayscale.i
 	@echo ... filters/grayscale.s
 	@echo ... filters/negative.obj
 	@echo ... filters/negative.i
 	@echo ... filters/negative.s
+	@echo ... filters/rotate.obj
+	@echo ... filters/rotate.i
+	@echo ... filters/rotate.s
 	@echo ... filters/scale.obj
 	@echo ... filters/scale.i
 	@echo ... filters/scale.s
+	@echo ... filters/sharpening.obj
+	@echo ... filters/sharpening.i
+	@echo ... filters/sharpening.s
 	@echo ... filters/threshold.obj
 	@echo ... filters/threshold.i
 	@echo ... filters/threshold.s

@@ -3,7 +3,5 @@
 class Blur : BaseFilter
 {
 public:
-    Blur() {};
-
     void Apply(Image& img) override;
 };

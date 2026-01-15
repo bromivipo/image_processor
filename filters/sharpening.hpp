@@ -1,6 +1,6 @@
 #include "base_filter.hpp"
 
-class Grayscale : BaseFilter
+class Sharpening : BaseFilter
 {
 public:
     void Apply(Image& img) override;

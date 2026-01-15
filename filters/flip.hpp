@@ -1,7 +1,8 @@
 #include "base_filter.hpp"
 
-class Grayscale : BaseFilter
+class Flip : BaseFilter
 {
 public:
     void Apply(Image& img) override;
+
 };

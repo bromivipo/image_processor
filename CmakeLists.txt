@@ -5,4 +5,4 @@ project(ImageProcessor)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(image_processor main.cpp image/image.cpp filters/grayscale.cpp filters/scale.cpp filters/negative.cpp filters/threshold.cpp)
+add_executable(image_processor main.cpp image/image.cpp filters/base_filter.cpp filters/grayscale.cpp filters/scale.cpp filters/negative.cpp filters/threshold.cpp filters/blur.cpp filters/sharpening.cpp filters/flip.cpp filters/rotate.cpp)

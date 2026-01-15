@@ -39,5 +39,5 @@ public:
 
     BmpHeader bmp_header;
     DibHeader dib_header;
-    std::vector<Pixel> pixels;
+    std::vector<std::vector<Pixel>> pixels;
 };

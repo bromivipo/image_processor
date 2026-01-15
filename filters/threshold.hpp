@@ -3,7 +3,5 @@
 class Threshold : BaseFilter
 {
 public:
-    Threshold() {};
-
     void Apply(Image& img) override;
 };
