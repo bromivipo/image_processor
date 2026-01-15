@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/misha/Documents/image_processor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\main.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\main.cpp",
+  "file": "C:/Users/misha/Documents/image_processor/main.cpp",
+  "output": "CMakeFiles/image_processor.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/misha/Documents/image_processor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\image\\image.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\image\\image.cpp",
+  "file": "C:/Users/misha/Documents/image_processor/image/image.cpp",
+  "output": "CMakeFiles/image_processor.dir/image/image.cpp.obj"
+},
+{
+  "directory": "C:/Users/misha/Documents/image_processor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\filters\\grayscale.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\filters\\grayscale.cpp",
+  "file": "C:/Users/misha/Documents/image_processor/filters/grayscale.cpp",
+  "output": "CMakeFiles/image_processor.dir/filters/grayscale.cpp.obj"
+},
+{
+  "directory": "C:/Users/misha/Documents/image_processor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\filters\\scale.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\filters\\scale.cpp",
+  "file": "C:/Users/misha/Documents/image_processor/filters/scale.cpp",
+  "output": "CMakeFiles/image_processor.dir/filters/scale.cpp.obj"
+},
+{
+  "directory": "C:/Users/misha/Documents/image_processor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\filters\\negative.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\filters\\negative.cpp",
+  "file": "C:/Users/misha/Documents/image_processor/filters/negative.cpp",
+  "output": "CMakeFiles/image_processor.dir/filters/negative.cpp.obj"
+},
+{
+  "directory": "C:/Users/misha/Documents/image_processor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\filters\\threshold.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\filters\\threshold.cpp",
+  "file": "C:/Users/misha/Documents/image_processor/filters/threshold.cpp",
+  "output": "CMakeFiles/image_processor.dir/filters/threshold.cpp.obj"
+}
+]
