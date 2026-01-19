@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/image_processor.dir/filter_factory/filter_factory.cpp.obj"
+  "CMakeFiles/image_processor.dir/filter_factory/filter_factory.cpp.obj.d"
   "CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj"
   "CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj.d"
   "CMakeFiles/image_processor.dir/filters/blur.cpp.obj"
@@ -21,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/image_processor.dir/image/image.cpp.obj.d"
   "CMakeFiles/image_processor.dir/main.cpp.obj"
   "CMakeFiles/image_processor.dir/main.cpp.obj.d"
+  "CMakeFiles/image_processor.dir/utils/utils.cpp.obj"
+  "CMakeFiles/image_processor.dir/utils/utils.cpp.obj.d"
   "image_processor.exe"
   "image_processor.exe.manifest"
   "image_processor.pdb"

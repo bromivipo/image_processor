@@ -1,6 +1,8 @@
+#pragma once
+
 #include "base_filter.hpp"
 
-class Blur : BaseFilter
+class Blur : public BaseFilter
 {
 public:
     void Apply(Image& img) override;

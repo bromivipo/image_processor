@@ -1,6 +1,8 @@
+#pragma once
+
 #include "base_filter.hpp"
 
-class Scale : BaseFilter
+class Scale : public BaseFilter
 {
 public:
     Scale(double koef) : koef_(koef) {};

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/misha/Documents/image_processor/filter_factory/filter_factory.cpp" "CMakeFiles/image_processor.dir/filter_factory/filter_factory.cpp.obj" "gcc" "CMakeFiles/image_processor.dir/filter_factory/filter_factory.cpp.obj.d"
   "C:/Users/misha/Documents/image_processor/filters/base_filter.cpp" "CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj" "gcc" "CMakeFiles/image_processor.dir/filters/base_filter.cpp.obj.d"
   "C:/Users/misha/Documents/image_processor/filters/blur.cpp" "CMakeFiles/image_processor.dir/filters/blur.cpp.obj" "gcc" "CMakeFiles/image_processor.dir/filters/blur.cpp.obj.d"
   "C:/Users/misha/Documents/image_processor/filters/flip.cpp" "CMakeFiles/image_processor.dir/filters/flip.cpp.obj" "gcc" "CMakeFiles/image_processor.dir/filters/flip.cpp.obj.d"
@@ -19,6 +20,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/misha/Documents/image_processor/filters/threshold.cpp" "CMakeFiles/image_processor.dir/filters/threshold.cpp.obj" "gcc" "CMakeFiles/image_processor.dir/filters/threshold.cpp.obj.d"
   "C:/Users/misha/Documents/image_processor/image/image.cpp" "CMakeFiles/image_processor.dir/image/image.cpp.obj" "gcc" "CMakeFiles/image_processor.dir/image/image.cpp.obj.d"
   "C:/Users/misha/Documents/image_processor/main.cpp" "CMakeFiles/image_processor.dir/main.cpp.obj" "gcc" "CMakeFiles/image_processor.dir/main.cpp.obj.d"
+  "C:/Users/misha/Documents/image_processor/utils/utils.cpp" "CMakeFiles/image_processor.dir/utils/utils.cpp.obj" "gcc" "CMakeFiles/image_processor.dir/utils/utils.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

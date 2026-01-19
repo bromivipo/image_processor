@@ -1,17 +1,13 @@
 #include <iostream>
-#include "filters/grayscale.hpp"
-#include "filters/scale.hpp"
-#include "filters/negative.hpp"
-#include "filters/threshold.hpp"
-#include "filters/blur.hpp"
-#include "filters/sharpening.hpp"
-#include "filters/flip.hpp"
-#include "filters/rotate.hpp"
+#include "utils/utils.hpp"
+#include "filter_factory/filter_factory.hpp"
 
 int main(int argc, char** argv) {
-    Image img("C:\\Users\\misha\\Documents\\image_processor\\bmp_images\\image24.bmp");
-    auto filter = Rotate();
-    filter.Apply(img);
-    img.SaveImage("C:\\Users\\misha\\Documents\\image_processor\\bmp_images\\output.bmp");
+    ParsedData parsed = Parse(argc, argv);
+    auto img = Image(parsed.input_path);
+    FilterFactory factory;
+    auto pipeline = factory.BuildPipeline(parsed);
+    ApplyFilters(pipeline, img);
+    img.SaveImage(parsed.output_path);
     return 0;
 }

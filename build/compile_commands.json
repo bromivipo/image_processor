@@ -64,5 +64,17 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\filters\\rotate.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\filters\\rotate.cpp",
   "file": "C:/Users/misha/Documents/image_processor/filters/rotate.cpp",
   "output": "CMakeFiles/image_processor.dir/filters/rotate.cpp.obj"
+},
+{
+  "directory": "C:/Users/misha/Documents/image_processor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\utils\\utils.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\utils\\utils.cpp",
+  "file": "C:/Users/misha/Documents/image_processor/utils/utils.cpp",
+  "output": "CMakeFiles/image_processor.dir/utils/utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/misha/Documents/image_processor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\image_processor.dir\\filter_factory\\filter_factory.cpp.obj -c C:\\Users\\misha\\Documents\\image_processor\\filter_factory\\filter_factory.cpp",
+  "file": "C:/Users/misha/Documents/image_processor/filter_factory/filter_factory.cpp",
+  "output": "CMakeFiles/image_processor.dir/filter_factory/filter_factory.cpp.obj"
 }
 ]

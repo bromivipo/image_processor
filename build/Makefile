@@ -128,6 +128,30 @@ image_processor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/build
 .PHONY : image_processor/fast
 
+filter_factory/filter_factory.obj: filter_factory/filter_factory.cpp.obj
+.PHONY : filter_factory/filter_factory.obj
+
+# target to build an object file
+filter_factory/filter_factory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filter_factory/filter_factory.cpp.obj
+.PHONY : filter_factory/filter_factory.cpp.obj
+
+filter_factory/filter_factory.i: filter_factory/filter_factory.cpp.i
+.PHONY : filter_factory/filter_factory.i
+
+# target to preprocess a source file
+filter_factory/filter_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filter_factory/filter_factory.cpp.i
+.PHONY : filter_factory/filter_factory.cpp.i
+
+filter_factory/filter_factory.s: filter_factory/filter_factory.cpp.s
+.PHONY : filter_factory/filter_factory.s
+
+# target to generate assembly for a file
+filter_factory/filter_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/filter_factory/filter_factory.cpp.s
+.PHONY : filter_factory/filter_factory.cpp.s
+
 filters/base_filter.obj: filters/base_filter.cpp.obj
 .PHONY : filters/base_filter.obj
 
@@ -392,6 +416,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+utils/utils.obj: utils/utils.cpp.obj
+.PHONY : utils/utils.obj
+
+# target to build an object file
+utils/utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/utils/utils.cpp.obj
+.PHONY : utils/utils.cpp.obj
+
+utils/utils.i: utils/utils.cpp.i
+.PHONY : utils/utils.i
+
+# target to preprocess a source file
+utils/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/utils/utils.cpp.i
+.PHONY : utils/utils.cpp.i
+
+utils/utils.s: utils/utils.cpp.s
+.PHONY : utils/utils.s
+
+# target to generate assembly for a file
+utils/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image_processor.dir\build.make CMakeFiles/image_processor.dir/utils/utils.cpp.s
+.PHONY : utils/utils.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -401,6 +449,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... image_processor
+	@echo ... filter_factory/filter_factory.obj
+	@echo ... filter_factory/filter_factory.i
+	@echo ... filter_factory/filter_factory.s
 	@echo ... filters/base_filter.obj
 	@echo ... filters/base_filter.i
 	@echo ... filters/base_filter.s
@@ -434,6 +485,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... utils/utils.obj
+	@echo ... utils/utils.i
+	@echo ... utils/utils.s
 .PHONY : help
 
 

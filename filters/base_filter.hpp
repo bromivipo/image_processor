@@ -15,4 +15,5 @@ protected:
     };
 public:
     virtual void Apply(Image& img) = 0;
+    virtual ~BaseFilter() = default;
 };
