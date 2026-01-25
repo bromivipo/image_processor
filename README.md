@@ -25,6 +25,7 @@ A command-line utility written in C++ for fast, dependency-free BMP image manipu
 ### Usage
 
 The application is a command-line tool. Use the following syntax to process your images:
+
 ```./image_processor <input.bmp> <output.bmp> [-filter1 params] [-filter2 params] ...```
 
 If you want to see the filters in action before running the tool, check out the examples/ folder.
