@@ -4,7 +4,7 @@
 
 ParsedData Parse(int argc, char** argv) {
     if (argc < 3) {
-        std::runtime_error("Wrong args! Usage: " + std::string(argv[0]) + " input.bmp output.bmp [-filter1 params] [-filter2 params]...");
+        std::runtime_error("Wrong args! Usage: " + std::string(argv[0]) + " <input.bmp> <output.bmp> [-filter1 params] [-filter2 params]...");
     }
     ParsedData parsed;
     parsed.input_path = argv[1];
@@ -19,7 +19,7 @@ ParsedData Parse(int argc, char** argv) {
             filter.params.clear();
         } else {
             if (filter.name.empty()) {
-                std::runtime_error("Wrong args! Usage: " + std::string(argv[0]) + " input.bmp output.bmp [-filter1 params] [-filter2 params]...");
+                std::runtime_error("Wrong args! Usage: " + std::string(argv[0]) + " <input.bmp> <output.bmp> [-filter1 params] [-filter2 params]...");
             }
             filter.params.push_back(argv[i]);
         }

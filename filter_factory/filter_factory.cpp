@@ -21,7 +21,13 @@ FilterFactory::FilterFactory() {
         return std::make_unique<Blur>();
     });
     RegisterFilter("flip", [](const std::vector<std::string>& args) {
-        return std::make_unique<Flip>();
+        if (args.empty()) {
+            throw std::runtime_error("Flip filter requires one argument");
+        }
+        if (args[0] != "v" && args[0] != "h") {
+            throw std::runtime_error("Wrong flip argument! Allowed values: v and h");
+        }
+        return std::make_unique<Flip>(args[0][0]);
     });
     RegisterFilter("grayscale", [](const std::vector<std::string>& args) {
         return std::make_unique<Grayscale>();
@@ -38,16 +44,30 @@ FilterFactory::FilterFactory() {
         }
         try {
             double koef = std::stod(args[0]);
+            if (koef < 0.1 || koef > 10.0) {
+                throw std::out_of_range("Koef out of  range (0.1-10.0)");
+            }
             return std::make_unique<Scale>(koef);
         } catch (const std::invalid_argument& e) {
-            throw std::runtime_error("Scale argument must be a number! Got: " + args[0]);
+            throw std::runtime_error("Scale argument must be a float! Got: " + args[0]);
         }
     });
     RegisterFilter("sharpening", [](const std::vector<std::string>& args) {
         return std::make_unique<Sharpening>();
     });
     RegisterFilter("threshold", [](const std::vector<std::string>& args) {
-        return std::make_unique<Threshold>();
+        if (args.empty()) {
+            throw std::runtime_error("Threshold filter requires one argument");
+        }
+        try {
+            int limit = std::stoi(args[0]);
+            if (limit < 0 || limit > 255) {
+                throw std::out_of_range("Limit out of uint8 range (0-255)");
+            }
+            return std::make_unique<Threshold>(static_cast<uint8_t>(limit));
+        } catch (const std::invalid_argument& e) {
+            throw std::runtime_error("Threshold argument must be an integer! Got: " + args[0]);
+        }
     });
 }
 
