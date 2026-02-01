@@ -28,7 +28,7 @@ The application is a command-line tool. Use the following syntax to process your
 
 ```./image_processor <input.bmp> <output.bmp> [-filter1 params] [-filter2 params] ...```
 
-If you want to see the filters in action before running the tool, check out the examples/ folder.
+If you want to see the filters in action before running the tool, check out the [examples/](examples/) folder.
 
 ### Architecture & Design Patterns
 This project follows Object-Oriented Programming (OOP) principles to ensure code maintainability and scalability.
